@@ -1,5 +1,7 @@
 ### 👋 Hi I'm SakuraChiyo0v0
 
+Welcome to my GitHub profile!
+
 ### 🚀 Contributions
 
 <picture>
