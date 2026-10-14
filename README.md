@@ -1,6 +1,7 @@
 ### 👋 Hi I'm SakuraChiyo0v0
 
 Welcome to my GitHub profile!
+GitHub Contribution 是流水线自动提交的结果啦~ 我没有那么自律owo
 
 ### 🚀 Contributions
 
