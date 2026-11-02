@@ -13,16 +13,16 @@ jobs:
       contents: write
 
     steps:
+      # Fork of Platane/snk: snake head = GitHub avatar
       - name: Generate Contribution Snake
-        uses: Platane/snk@v3
+        uses: SakuraChiyo0v0/snk-1/svg-only@main
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/contribution-snake.svg
             dist/contribution-snake-dark.svg?palette=github-dark
 
-      # 推到独立的 output 分支（非 default / 非 gh-pages），
-      # 这样生成 SVG 的提交不会计入贡献图，避免“一片绿”。
+      # Push to non-default output branch so commits don't count on the graph
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
